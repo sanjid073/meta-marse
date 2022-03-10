@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+ 
+
+.home-body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 100px;
+}
+.logo-img img {
+  width: 160px;
+}
+.slideOne:checked + label:after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #000000;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+.link-box h3 {
+  color: #39dc2d;
+}
+.link-box .link-icon {
+  width: 24px;
+  height: 24px;
+}
+.link-box .copy-icon {
+  width: 12px;
+  height: 12px;
+}
+
+/* art section */
+.art-items {
+  width: 120px;
+}
+.art-items img {
+  height: 120px;
+}
+.art-box {
+  width: 120px;
+  padding: 0px 10px;
+  border: 1px solid #39dc2d;
+  background-color: #35363a;
+  margin-top: 5px;
+}
+.art-box img {
+  width: 10px;
+  height: 10px;
+}
+.art-box p {
+  color: #fff;
+  font-size: 10px;
+  margin: 0;
+}
+
+/* nft mask */
+.nft-mask{
+  border-left: 1px solid #35363a;
+}
+.nft-mask-content{
+  margin-left: 25%;
+}
+.nft-mask-text{
+  color: #39dc2d;
+}
+.mask {
+  width: 300px;
+  margin-left: 100px;
+}
+.nft-mask-box div{
+  width: 80px;
+  height: 80px;
+}
+.nft-mask button{
+  background-color: #39dc2d;
+  width: 445px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  .home-body{
+    height: auto;
+    align-items: center;
+  }
+  .nft-mask button{
+    background-color: #39dc2d;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: -30px;
+  }
+  .nft-mask{
+    border-left: 1px solid transparent;
+  }
+  .nft-mask-content{
+    margin-left: 0%;
+    text-align: center;
+  }
+  .mask {
+    width: 340px;
+    margin-left: 0px;
+  }
+  .nft-mask-box div{
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+  }
+
+}
+
+.red-input {
+  accent-color:  #39dc2d;
+  height: 10px; /* not needed */
+  width: 10px; /* not needed */
+}
